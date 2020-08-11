@@ -1,7 +1,15 @@
 # Hello!
 
-## README.md
+## git commit 하는 방법
 
-### edit
+```
+git add {추가할 파일}
+git commit -m "{남길 메시지}"
+git push
+```
 
-#### edit
+## git pull 하는 방법
+
+```
+git pull
+```
