@@ -14,22 +14,28 @@ while True:
     if i == 0:
         break
 
-
-
+i = 0
+while True:
+    i += 1
+    print(1 * " * ") 
+    break
 
 i = 0
 while True:
     i += 1
-    print(i * "*")
+    print(3 * "*")
+    break
 
-    if i > 0:
-        break
+i = 0
+while True:
+    print(1 * " * ")
+    break
 
 i = 0
 while True:
     i += 1
-    print(1 * "*")
+    print(1 * "*", 3 * "*", 1 *"*")
+    break
+    
 
-    if i > 2:
-        break
 
