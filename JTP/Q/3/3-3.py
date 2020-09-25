@@ -35,9 +35,10 @@
 #   ***
 #    *
 
-n = int(input("input : "))
-for i in range(1, n + 1):  # range(1, 3) => 
-    
+n = int(input("input : "))  # 2
+
+for i in range(1, n + 1):  # 1, 2
     print(" " * (n - i), "*" * (2 * i - 1))
 
-
+for i in range(n - 1, 0, -1):  # 1
+    print(" " * (n - i), "*" * (2 * i - 1))
