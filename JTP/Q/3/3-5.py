@@ -1,11 +1,7 @@
-a = 70
-b = 60
-c = 55
-d = 75
-e = 95
-f = 90
-g = 80
-h = 80
-i = 85
-j = 100
-print((a + b +c + d + e + f + g + h + i + j)/10)
+data = [70, 60, 55, 75, 95, 90, 80, 80, 85, 100]
+result = 0
+
+for a in data:
+    result += a
+
+print(result / len(data))
