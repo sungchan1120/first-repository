@@ -28,3 +28,16 @@
 # a = [1, 3, 5, 4, 2]
 # a.sort(reverse=True)
 # print(a)
+
+a = ['life', 'is', 'too', 'short']
+print(" ".join(a)) 
+
+a = (1,2,3)
+a = a + (4,)
+print(a)
+
+
+
+
+
+
