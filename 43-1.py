@@ -1,23 +1,25 @@
-# total = 0
-# for n in range(1,101):
-#     if(n%3 == 0):
-#         total += n
-# print(total)
-
-# def say():
-#     return "가""위"
-# a = say
-# print(a)
+total = 0
+for n in range(1, 101):
+    if n % 3 == 0:
+        print(n)
 
 
-def is_odd(number):
-    if number % 2 == 1:
-        print("홀수")
-    else:
-        print("짝수")
+# def say(*args):
+#     for a in args:
+#         print(a, end="")
 
 
-is_odd(4)
+# say("가", "위")
+
+
+# def is_odd(number):
+#     if number % 2 == 1:
+#         print("홀수")
+#     else:
+#         print("짝수")
+
+
+# is_odd(4)
 
 
 # input1 = input("첫 번째 숫자를 입력하세요:")
