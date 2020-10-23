@@ -1,12 +1,18 @@
-total = 0
-for n in range(1, 101):
-    if n % 3 == 0:
-        print(n)
+# total = 0
+# for n in range(1, 101):
+#     if n % 3 == 0:
+#         print(n)
 
 
-# def say(*args):
-#     for a in args:
-#         print(a, end="")
+def say(*args):
+    result = ""
+    for a in args:
+        result += a
+
+    print(result)
+
+
+say("text1", "text2", "text3")
 
 
 # say("가", "위")
