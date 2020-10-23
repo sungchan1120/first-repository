@@ -12,13 +12,12 @@
 
 def is_odd(number):
     if number % 2 == 1:
-        return True
+        print("홀수")
     else:
-        return False
+        print("짝수")
 
-print(is_odd(3))
 
-print(is_odd(4))
+is_odd(4)
 
 
 # input1 = input("첫 번째 숫자를 입력하세요:")
