@@ -39,20 +39,24 @@
 # print("you","need","python")
 # print("".join(["you","need","python"]))
 
-# f1 = open("test.txt", 'w')
-# f1.write("Life is too short!")
-# f1.close() 
+f1 = open("test.txt", 'w')
+f1.write("life is too short!!!")
+f1.close() 
 
-# f2 = open("test.txt", 'r')
-# print(f2.read())
-# f2.close()
-def avg_number(*args):
-    result = 0
-    for i in args:
-        result += i
-    return result len(*args)
+f2 = open("test.txt", 'r')
+print(f2.read())
+f2.close()
+# def avg_number(*args):
+#     result = 0
+#     for i in args:
+#        result += i
+#     return result/len(*args)
 
-avg_number(1,2)
+# avg_number(1,2)
+
+
+
+
 
 
 
