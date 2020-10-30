@@ -39,11 +39,11 @@
 # print("you","need","python")
 # print("".join(["you","need","python"]))
 
-f1 = open("test.txt", 'w')
+f1 = open("test.txt", "w")
 f1.write("life is too short!!!")
-f1.close() 
+f1.close()
 
-f2 = open("test.txt", 'r')
+f2 = open("test.txt", "r")
 print(f2.read())
 f2.close()
 # def avg_number(*args):
@@ -53,10 +53,3 @@ f2.close()
 #     return result/len(*args)
 
 # avg_number(1,2)
-
-
-
-
-
-
-
