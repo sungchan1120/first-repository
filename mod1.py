@@ -1,16 +1,20 @@
-# def add(a, b): 
+# def add(a, b):
 #     return a+b
 
-# def sub(a, b): 
+# def sub(a, b):
 #     return a-b
 
 # print(add(1, 2))
 # print(sub(4, 1))
-def add(a, b): 
-    return a+b
+def add(a, b):
+    return a + b
 
-def sub(a, b): 
-    return a-b
+
+def sub(a, b):
+    return a - b
+
+
+print(f"name: {__name__}")
 
 if __name__ == "__main__":
     print(add(1, 4))
