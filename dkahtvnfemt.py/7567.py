@@ -1,12 +1,10 @@
-dish = list(str(input()))
-answer = 0
+import sys
+sys.stdin = open("input.txt", 'r')
 
-for i in range(len(dish)):
-    if i == 0:
-        answer += 10
-    elif dish[i] == dish[i-1]:
-       answer += 5
-    else:
-        answer += 10
-        
-print(answer)
+s = input()
+l = 10#그릇 높이
+p = s[0]
+for i in range(1, len(s)):
+    l += (5 if s[i] == p else 10)#
+    p = s[i]
+print(l)
