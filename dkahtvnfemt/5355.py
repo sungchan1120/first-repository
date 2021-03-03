@@ -7,11 +7,11 @@ for _ in range(case):
         if i == 0:
             answer += float(mars[i])
         else:
-            if mars[i] == "#":#"#을 7로 답한다"
+            if mars[i] == "#":
                 answer -= 7
             elif mars[i] == "%":
                 answer += 5
             elif mars[i] == "@":
                 answer *= 3
-                
-    print("%0.2f" % answer)    
+
+print("%0.2f" % answer)
